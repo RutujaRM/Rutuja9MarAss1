@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>TO DO UI</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./fav.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+</head>
+
+<body title="Rutuja Mashere">
+
+    <div id="container">
+
+        <form title="Home" id="form1" action="">
+
+            <div id="form1division">
+
+                <h1 id="heading">Time Board</h1>
+
+            </div>
+
+            <div id="form1division2">
+                <h1 id="heading1">
+                    <blockquote>Start<br>Task & Time <br>Management</blockquote>
+                </h1>
+                <img id="notes" src="./notes.jpg" alt="">
+                <p style="color: crimson;text-align: center;"> <b>Manage Your Daily TO DO</b> </p>
+
+                <input type="button" value="Sign In" id="signin" name="a">
+                <input type="button" value="Sign Up" id="signup" name="b">
+            </div>
+
+        </form>
+
+
+
+
+        <!--This is a second form -->
+
+
+        <form title="Time Board" id="form2" action="">
+
+            <div id="form2division1">
+                <button class="button"> <img id="hamburger" src="./ham.png" alt="" srcset=""> </button>
+                <span id="heading2">Weekly Task</span>
+                <button class="account"> <img id="account" src="./p1.jpg" alt="" srcset=""> </button>
+            </div>
+
+            <div id="form2division2">
+
+                <div id="form2division2first">
+
+                    <div id="form2division2first1">
+                        <img id="flower" src="./flower.jpg" alt="">
+                        <h2 class="heading3">
+                            <blockquote>App Branding Redesign</blockquote>
+                        </h2>
+                        <i class="fa fa-calendar"
+                            style="font-size:20px;margin: -80px 0px 0px 30px;color: white;"></i>&ensp;<span
+                            class="heading3">10 Task</span>
+
+                    </div>
+
+                    <div id="form2division2first2">
+                        <h1 class="heading3">
+                            <blockquote>12:30<sub>PM</sub></blockquote>
+                        </h1>
+                        <h5 class="heading5">Next Meeting</h5>
+                        <h1 class="heading5">04:26:39</h1>
+
+                    </div>
+                </div>
+
+
+                <div id="form2division2second">
+
+                    <div id="form2division2second1">
+                        <blockquote>
+                            <h2 class="heading3">Friday 24</h2>
+                            <h4 class="heading3">12 Available task today</h4>
+                        </blockquote>
+                        <img id="alarm" src="./alarm.jpg" alt="">
+
+                    </div>
+
+                    <div id="form2division2second2">
+                        <img id="pencil" src="./pencils.jpg" alt="">
+                        <h2 class="heading3">
+                            <blockquote>Weekly Team Meeting</blockquote>
+                        </h2>
+                        <i class="fa fa-calendar"
+                            style="font-size:20px;margin: -80px 0px 0px 30px;color: white;"></i>&ensp;<span
+                            class="heading3">05 Task</span>
+
+
+                    </div>
+                </div>
+
+                <button class="button2"><img id="add" src="./add.webp" alt=""></button>
+
+            </div>
+
+
+
+
+        </form>
+
+        <!--This is a third form for dark theme of calculator-->
+
+
+        <form title="My Today's Task" id="form3" action="">
+
+            <div id="form2division1">
+                <button class="button"> <img id="hamburger" src="./a.png" alt="" srcset=""> </button>
+                <span id="heading2">Today Task</span>
+                <button class="button1"> <img id="search" src="./s.jpg" alt="" srcset=""> </button>
+            </div>
+
+            <div id="form3division2">
+                <h1>Rutuja Website & App Brand Redesign .</h1>
+                <img id="p1" src="./p1.jpg" alt="">
+                <img id="p2" src="./p2.jpg" alt="">
+                <img id="p3" src="./p3.jpg" alt="">
+                <img id="p4" src="./p4.jpg" alt="">
+                <img id="p5" src="./5++.png" alt="">
+            </div>
+
+            <div id="form3division3">
+                <hr>
+                <input type="text" id="todo_input"  placeholder="Type Tasks" name="task">
+                <br>
+
+                <h3 class="form3division3first">10 AM</h3>
+                <div id="form3division3first" class=form3division3first>
+                    <p>Landing page Design 😄😄 <br>10:30am -11:30am</p>
+                </div>
+                <hr>
+
+                <h3 class="form3division3first">12 AM</h3>
+                <div id="form3division3first1" class=form3division3first>
+                    <p>Mobile App Design 😄😄 <br>12:00pm -1:00pm</p>
+                </div>
+                <hr>
+
+                <h3 class="form3division3first">01 PM</h3>
+                <div id="form3division3first2" class=form3division3first>
+                    <p>Team Call !! 😄 <br>1:30pm -2:30pm</p>
+                </div>
+                <hr>
+
+                <h3 class="form3division3first">03 PM</h3>
+                <div id="form3division3first3" class=form3division3first>
+                    <p>Family Meetimg... 😄 <br>3:00pm -3:30pm</p>
+                </div>
+                 <hr>
+
+                
+                <h3 class="form3division3first"></h3>
+                <div id="form3division3first4" class=form3division3first>
+                    <ul id="list_container"></ul>
+                </div>
+                
+            </div>
+
+            <div>
+                <input id="add_btn" type="button" value="Add New Task">
+                <br>
+                
+            </div>
+
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
+
+
+
+
+    

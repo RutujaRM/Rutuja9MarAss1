@@ -1,0 +1,473 @@
+body{
+    background: linear-gradient(to bottom right, #ffccff 0%, #ffffcc 100%);
+}
+
+
+#form1{
+    
+    width: 400px;
+    height: 650px;
+    box-shadow: 0px 8px 16px 4px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0px 0px 30px;
+    background-image: url(./wall.webp);
+    background-size: cover;
+    
+   
+   
+}
+
+#form2{
+    
+    width: 400px;
+    height: 650px;
+    box-shadow: 0px 8px 16px 4px;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 80px 0px 0px 50px;
+    background-color: white;
+   
+
+}
+
+
+#form3{
+    
+    width: 400px;
+    height: fit-content;
+    box-shadow: 0px 8px 16px 4px;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 160px 0px 0px 60px;
+    background-color: white;
+   
+
+}
+
+#container{
+          display: inline-flex;
+}
+
+#heading{
+          text-align: center;
+          font-size: xx-large;
+          font-style: italic;
+          color: rgb(255,255, 255);
+}
+
+#form1division2{
+                 height: 330px;
+                 margin: 300px -20px 0px -20px;
+                 background-color: rgb(255,255, 255);
+                 border-radius: 30px;
+}
+
+#heading1{
+         margin: 30px 0px 0px 0px;
+}
+#signin{
+         height: 50px;
+         width: 150px;
+         border-radius: 20px;
+         padding: 10px;
+         margin: 5px 0px 0px 50px;
+         background: linear-gradient(to bottom, #0099ff 0%, #00ffff 100%);
+         font-size: medium;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#signup{
+         height: 50px;
+         width: 150px;
+         border-radius: 20px;
+         padding: 10px;
+         margin: 5px 0px 0px 50px;
+         background: linear-gradient(to bottom, #ff3300 0%, #ff9900 100%);
+         font-size: medium;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+#notes{
+          height: 150px;
+          width: 250px;
+          margin: -80px 0px 0px 220px;
+          border-radius: 10px;
+}
+.button{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 10px;
+   
+
+   
+}
+
+.button1{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 80px;
+  
+}
+#hamburger{
+    height: 25px;
+    width: 25px;
+   
+}
+
+#search{
+    height: 30px;
+    width: 30px;
+    padding: -10px;
+
+   
+   
+}
+
+#account{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+   }
+  
+   .account{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 60px;
+    border: none;
+   }
+
+#form2division1{
+    display: inline-block;
+
+}
+
+#heading2{
+    text-align: center;
+    font-size: xx-large;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+     color: black;
+     margin-top: -30px;
+
+}
+
+
+#form2division2first{
+    
+    float: left;
+    margin: 20px 0px 0px 0px;
+    height: 400px;
+    width: 50%;
+    
+
+
+}
+
+#form2division2second{
+   
+    float: right;
+    margin: 40px 0px 0px 0px;
+    height: 400px;
+    width: 50%;
+
+}
+#form2division2first1{
+    background: linear-gradient(to right, #6600cc 0%, #9900cc 100%);
+    display: block;
+    height: 250px;
+    width: 95%;
+    border-radius: 30px;
+    
+
+}
+
+#form2division2first2{
+
+    background: linear-gradient(to bottom right, #00ffff 0%, #0066ff 100%);
+    border-radius: 20px;
+    display: block;
+    height: 130px;
+    width: 95%;
+    border-radius: 30px;
+    
+}
+
+#form2division2second1{
+    background: linear-gradient(to left, #ff3300 0%, #ff9933 100%);
+    display: block;
+    height: 130px;
+    width: 95%;
+    border-radius: 30px;
+    
+
+}
+
+#form2division2second2{
+
+    background: linear-gradient(to right, #ff0066 0%, #ff33cc 100%);
+    border-radius: 20px;
+    display: block;
+    height: 250px;
+    width: 95%;
+    border-radius: 30px;
+    margin-top: 25px;
+    
+}
+
+#flower{
+         height: 70px;
+         width: 70px;
+         border-radius: 20px;
+        margin: 20px 0px 0px 20px;
+}
+
+#alarm{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    margin: -1000px 0px 0px 150px;
+
+}
+
+#pencil{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+   margin: 20px 0px 0px 20px;
+
+}
+
+.heading3{
+           color: white;
+}
+
+
+.heading5{
+      margin-left: 30px;
+      color: white;
+      margin: -5px 0px 0px 25px;
+}
+
+.button2{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 80px 0px 0px 150px;
+    border: none;
+}
+
+#add{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin: 0px 100px 0px 0px;
+
+}
+
+
+ 
+ #p1{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    display: -moz-grid-line;
+    position: relative;
+    margin-right: -30px;
+    
+
+ } 
+ #p2{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    display: -moz-grid-line;
+    position: relative;
+    margin-right: -15px;
+    
+    
+   }                   
+ 
+   #p3{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    display: -moz-grid-line;
+    margin-right: -30px;
+   
+    
+   }                   
+ 
+   #p4{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-right: -20px;
+    padding: 5px;
+    
+   
+    
+   }                   
+ 
+   #p5{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+  
+   }    
+   
+   #form3division3{
+    height: fit-content;
+    margin: 0px -20px 0px -20px;
+    background-color: rgb(255,255, 255);
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, #ffffff 0%, #ffcccc 100%);
+}
+
+#form3division2{
+    background: linear-gradient(to bottom right, #ffffff 0%, #00cc99 100%);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px -20px 0px -20px;
+
+}
+
+#form3division3first{
+
+    background: linear-gradient(to left, #ff0066 0%, #ff33cc 100%);
+    height: 55px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    outline: 2px dashed white;
+    outline-offset: -5px;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form3division3first{
+    
+    display: inline-block;
+   margin-top: 20px;
+   
+}
+h3{
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+#form3division3first1{
+    background: linear-gradient(to bottom, #00ffff 0%, #0066ff 100%);
+    height: 55px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    outline: 2px dashed white;
+    outline-offset: -5px;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#form3division3first2{
+    background: linear-gradient(to left, #009933 0%, #66ff66 100%);
+    height: 55px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    outline: 2px dashed white;
+    outline-offset: -5px;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#form3division3first3{
+    background: linear-gradient(to bottom right, #cc0000 0%, #ff5050 100%);
+    height: 55px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    outline: 2px dashed white;
+    outline-offset: -5px;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#form3division3first4{
+    background: linear-gradient(to bottom right, #990099 0%, #ff66cc 100%);
+    height:fit-content;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 150px;
+    outline: 2px dashed white;
+    outline-offset: -5px;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#add_btn{
+       height: 50px;
+       width: 200px;
+       padding: 10px;
+      border-radius: 30px;
+      margin: 5px 0px 0px 100px;
+      font-size:medium;
+      background: linear-gradient(to top left, #000099 0%, #ccccff 100%);
+      color: white;
+      border: none;
+}
+
+#todo_input{
+
+     height: 30px;
+     width: 300px;
+     text-align: center;
+     margin: 0px 0px 0px 70px;
+     border-radius: 30px;
+     font-size: medium;
+
+}
+
+#list_container{
+
+    list-style: none;
+
+}
